@@ -1,0 +1,8 @@
+<h1>New List</h1>
+<br>
+<%= simple_form_for(@list) do |f| %>
+  <%= f.input :name %>
+  <%= f.submit %>
+<% end %>
+<br>
+<%= link_to "Index of the lists", lists_path %>
